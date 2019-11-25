@@ -1,0 +1,6 @@
+C:\Users\Hunter\source\repos\FinalChallengeDatabase\FinalChallengeDatabase\bin\Debug\FinalChallengeDatabase.dacpac
+C:\Users\Hunter\source\repos\FinalChallengeDatabase\FinalChallengeDatabase\bin\Debug\FinalChallengeDatabase.dll
+C:\Users\Hunter\source\repos\FinalChallengeDatabase\FinalChallengeDatabase\bin\Debug\FinalChallengeDatabase.pdb
+C:\Users\Hunter\source\repos\FinalChallengeDatabase\FinalChallengeDatabase\obj\Debug\FinalChallengeDatabase.sqlprojAssemblyReference.cache
+C:\Users\Hunter\source\repos\FinalChallengeDatabase\FinalChallengeDatabase\obj\Debug\FinalChallengeDatabase.dll
+C:\Users\Hunter\source\repos\FinalChallengeDatabase\FinalChallengeDatabase\obj\Debug\FinalChallengeDatabase.pdb
