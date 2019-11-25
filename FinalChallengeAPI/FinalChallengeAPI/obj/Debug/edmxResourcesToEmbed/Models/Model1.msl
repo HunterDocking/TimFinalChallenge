@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DADModelStoreContainer" CdmEntityContainer="DADEntities">
+    <EntitySetMapping Name="C__RefactorLog">
+      <EntityTypeMapping TypeName="DADModel.C__RefactorLog">
+        <MappingFragment StoreEntitySet="__RefactorLog">
+          <ScalarProperty Name="OperationKey" ColumnName="OperationKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="DADModel.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="CustNo" ColumnName="CustNo" />
+          <ScalarProperty Name="InterestCode" ColumnName="InterestCode" />
+          <ScalarProperty Name="CustName" ColumnName="CustName" />
+          <ScalarProperty Name="CustAddress" ColumnName="CustAddress" />
+          <ScalarProperty Name="CustPcode" ColumnName="CustPcode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Interests">
+      <EntityTypeMapping TypeName="DADModel.Interest">
+        <MappingFragment StoreEntitySet="Interest">
+          <ScalarProperty Name="InterestCode" ColumnName="InterestCode" />
+          <ScalarProperty Name="InterestDesc" ColumnName="InterestDesc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Records">
+      <EntityTypeMapping TypeName="DADModel.Record">
+        <MappingFragment StoreEntitySet="Record">
+          <ScalarProperty Name="RecordID" ColumnName="RecordID" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Performer" ColumnName="Performer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sales">
+      <EntityTypeMapping TypeName="DADModel.Sale">
+        <MappingFragment StoreEntitySet="Sale">
+          <ScalarProperty Name="DateOrdered" ColumnName="DateOrdered" />
+          <ScalarProperty Name="RecordID" ColumnName="RecordID" />
+          <ScalarProperty Name="CustNo" ColumnName="CustNo" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
